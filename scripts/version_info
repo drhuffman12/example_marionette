@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+
+crystal eval 'require "./src/example_marionette"; puts "ExampleMarionette version: #{ExampleMarionette::VERSION}"'
