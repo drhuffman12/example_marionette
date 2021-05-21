@@ -39,3 +39,4 @@ jobs:
       # run: crystal spec
     - name: Run tests (w/ junit format)
       run: scripts/test_always_junit_format
+
