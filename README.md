@@ -4,15 +4,20 @@ TODO: Write a description here
 
 ## Installation
 
-TODO: Write installation instructions here
-
-## Usage
-
 Make sure you have the latest version of the browser installed
 
 * Chrome: https://linuxconfig.org/how-to-install-google-chrome-browser-on-linux
 
 * (other: tbd)
+
+See also:
+* https://github.com/matthewmcgarvey/webdrivers.cr
+* https://github.com/watzon/marionette
+* https://github.com/watzon/marionette/issues/23
+
+## Usage
+
+TODO: Write usage instructions here
 
 ## Development
 
