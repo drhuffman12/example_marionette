@@ -1,6 +1,18 @@
 version: 2.0
 shards:
+  crystar:
+    git: https://github.com/naqvis/crystar.git
+    version: 0.2.0
+
+  habitat:
+    git: https://github.com/luckyframework/habitat.git
+    version: 0.4.7
+
   marionette:
     git: https://github.com/watzon/marionette.git
     version: 0.3.0+git.commit.a962bb377e54a6d60323bcc6f24d0dd78789f2a0
+
+  webdrivers:
+    git: https://github.com/matthewmcgarvey/webdrivers.cr.git
+    version: 0.4.0
 

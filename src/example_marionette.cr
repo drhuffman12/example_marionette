@@ -1,4 +1,5 @@
-# TODO: Write documentation for `ExampleMarionette`
+require "webdrivers"
+
 module ExampleMarionette
   VERSION = "0.1.0"
 

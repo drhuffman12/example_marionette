@@ -16,3 +16,5 @@ dependencies:
   marionette:
     github: watzon/marionette
     branch: master
+  webdrivers:
+    github: matthewmcgarvey/webdrivers.cr
