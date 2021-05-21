@@ -8,7 +8,11 @@ TODO: Write installation instructions here
 
 ## Usage
 
-TODO: Write usage instructions here
+Make sure you have the latest version of the browser installed
+
+* Chrome: https://linuxconfig.org/how-to-install-google-chrome-browser-on-linux
+
+* (other: tbd)
 
 ## Development
 
