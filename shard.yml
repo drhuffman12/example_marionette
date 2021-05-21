@@ -1,0 +1,13 @@
+name: example_marionette
+version: 0.1.0
+
+authors:
+  - Daniel Huffman <drhuffman12@gmail.com>
+
+targets:
+  example_marionette:
+    main: src/example_marionette.cr
+
+crystal: 1.0.0
+
+license: MIT
