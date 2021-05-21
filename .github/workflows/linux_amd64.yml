@@ -45,8 +45,9 @@ jobs:
     - name: Show repo version
       run: scripts/version_info
 
-    - name: Run static code analysis
-      run: bin/ameba --no-color
+    # - name: Run static code analysis
+    #   run: bin/ameba --no-color
+
     - name: Run tests
       run: scripts/test_always
 
