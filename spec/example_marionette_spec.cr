@@ -25,6 +25,5 @@ describe ExampleMarionette do
 
     sleep 5
     session.close
-
   end
 end
