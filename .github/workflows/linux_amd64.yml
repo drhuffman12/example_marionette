@@ -33,7 +33,7 @@ jobs:
         args: https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
     - name: Install Chrome debian package
-      run: apt-get install ./google-chrome-stable_current_amd64.deb -f
+      run: apt-get install ./google-chrome-stable_current_amd64.deb -f --yes
 
     - name: Show Crystal version
       run: crystal -v
