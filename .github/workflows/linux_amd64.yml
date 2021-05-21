@@ -15,6 +15,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: Find and fix broken packages
+      run:  apt-get --fix-missing update
+      run:  apt-get update
+      run:  apt-get install -f
+
     # - name: Add wget
     #   run: apt install wget
     - name: Get Chrome installer
