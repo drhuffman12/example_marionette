@@ -9,7 +9,7 @@ describe ExampleMarionette do
 
   it "works" do
     # session = Marionette::WebDriver.create_session(:chrome)
-    options = Marionette.chrome_options(experimental_options: {"excludeSwitches" => ["enable-automation"]})
+    options = Marionette.chrome_options(experimental_options: {"excludeSwitches" => ["enable-automation"]}, args: ["start-fullscreen"])
     session = Marionette::WebDriver.create_session(:chrome, capabilities: options)
 
     # Navigate to crystal-lang.org
