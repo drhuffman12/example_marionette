@@ -15,10 +15,14 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Add wget
-      run: apt install wget
+    # - name: Add wget
+    #   run: apt install wget
     - name: Get Chrome installer
-      run: wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+      # run: wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+      uses: wei/wget@v1
+      with:
+        args: https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
     - name: Install Chrome debian package
       run: apt install ./google-chrome-stable_current_amd64.deb
 
