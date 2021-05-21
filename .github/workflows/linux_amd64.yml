@@ -15,9 +15,13 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Find and fix broken packages
+    - name: Find and fix broken packages (part 1 of 3)
       run:  apt-get --fix-missing update
+
+    - name: Find and fix broken packages (part 2 of 3)
       run:  apt-get update
+
+    - name: Find and fix broken packages (part 3 of 3)
       run:  apt-get install -f
 
     # - name: Add wget
