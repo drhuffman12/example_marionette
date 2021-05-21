@@ -9,7 +9,6 @@ describe ExampleMarionette do
   # end
 
   it "works" do
-    # session = Marionette::WebDriver.create_session(:chrome)
     options = Marionette.chrome_options(experimental_options: {"excludeSwitches" => ["enable-automation"]}, args: ["start-fullscreen"])
     session = Marionette::WebDriver.create_session(:chrome, capabilities: options)
 
@@ -19,14 +18,6 @@ describe ExampleMarionette do
     session.current_url.should eq("https://crystal-lang.org/")
 
     sleep 5
-
-    # # Start an action chain and perform it
-    # session.perform_actions do
-    #   # Click the "INSTALL" link
-    #   click ".main-actions a:nth-child(1)"
-    # end
-
-    # sleep 5
     session.close
   end
 end
